@@ -1,3 +1,5 @@
+import work.Names
+
 class Main implements Names {
 
     static void main(String[] args) {
@@ -7,7 +9,6 @@ class Main implements Names {
         for (int i in 0..names.size()-1) {
             if (i % column == 0) print "\n | "
             print names[set[i]] + " | "
-//            print names[random.nextInt(names.size())] + " "
         }
     }
 }
